@@ -1,3 +1,3 @@
 # Workspace Configs from:
-## ZSH
-## VS CODE
+- ZSH 
+- VS CODE
