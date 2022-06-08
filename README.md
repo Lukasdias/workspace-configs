@@ -1,3 +1,19 @@
 # Workspace Configs from:
-- ZSH 
-- VS CODE
+- [ZSH](https://www.zsh.org/)
+- [OH MY ZSH](https://ohmyz.sh/)
+- [ZINIT(ZSH PLUGIN MANAGER)](https://github.com/zdharma-continuum/zinit) 
+- [VS CODE](https://code.visualstudio.com/)
+## How to install Zinit
+- `bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"`
+- `zinit self-update`
+### Then: 
+- `zinit load  <repo/plugin> # Load with reporting/investigating.`
+- `zinit light <repo/plugin> # Load without reporting/investigating.`
+## ZSH Theme Used
+- [Spaceship](https://github.com/spaceship-prompt/spaceship-prompt)
+## ZSH Plugins used
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+- [fast-syntax-highlighting](https://github.com/zdharma-continuum/fast-syntax-highlighting)
+- [history-search-multi-word](https://github.com/zdharma/history-search-multi-word)
+- [zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete)
+- [zsh-auto-notify](https://github.com/MichaelAquilina/zsh-auto-notify)
